@@ -4,7 +4,7 @@ const port = 80
 
 const server = http.createServer((request, response) => {
   response.writeHead(200, {'Content-Type': 'text/plain'})
-  response.write('Hello World from GitHub 2 \n')
+  response.write('Hello World from GitHub Multi Step \n')
   response.end('Version: ' + process.env.NODE_VERSION + '\n')
 })
 
